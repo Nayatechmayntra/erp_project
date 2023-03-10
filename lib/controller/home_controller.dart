@@ -20,7 +20,7 @@ class HomeController extends GetxController {
     super.onInit();
     SharedPreferences preferences = await SharedPreferences.getInstance();
     homelistApi(preferences.getString("login").toString());
-    
+
   }
 
   homelistApi(
